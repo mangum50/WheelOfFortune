@@ -31,6 +31,8 @@
             this.guessButton = new System.Windows.Forms.Button();
             this.wordListView = new System.Windows.Forms.ListView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.statusLabel = new System.Windows.Forms.Label();
+            this.takeAGuessButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // guessButton
@@ -64,6 +66,27 @@
             this.panel1.Size = new System.Drawing.Size(448, 169);
             this.panel1.TabIndex = 2;
             // 
+            // statusLabel
+            // 
+            this.statusLabel.AutoSize = true;
+            this.statusLabel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.statusLabel.ForeColor = System.Drawing.Color.Blue;
+            this.statusLabel.Location = new System.Drawing.Point(449, 367);
+            this.statusLabel.Name = "statusLabel";
+            this.statusLabel.Size = new System.Drawing.Size(52, 13);
+            this.statusLabel.TabIndex = 3;
+            this.statusLabel.Text = "Welcome";
+            // 
+            // takeAGuessButton
+            // 
+            this.takeAGuessButton.Location = new System.Drawing.Point(219, 367);
+            this.takeAGuessButton.Name = "takeAGuessButton";
+            this.takeAGuessButton.Size = new System.Drawing.Size(75, 23);
+            this.takeAGuessButton.TabIndex = 4;
+            this.takeAGuessButton.Text = "Guess";
+            this.takeAGuessButton.UseVisualStyleBackColor = true;
+            this.takeAGuessButton.Click += new System.EventHandler(this.takeAGuessButton_Click);
+            // 
             // Board
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -71,6 +94,8 @@
             this.BackgroundImage = global::WheelOfFortune.Properties.Resources.Wheel_of_Fortune_Puzzle_Board_3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(723, 402);
+            this.Controls.Add(this.takeAGuessButton);
+            this.Controls.Add(this.statusLabel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.wordListView);
             this.Controls.Add(this.guessButton);
@@ -78,6 +103,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Board_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -86,6 +112,8 @@
         private System.Windows.Forms.Button guessButton;
         private System.Windows.Forms.ListView wordListView;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label statusLabel;
+        private System.Windows.Forms.Button takeAGuessButton;
     }
 }
 

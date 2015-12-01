@@ -31,6 +31,7 @@
             this.endProgramButton = new System.Windows.Forms.Button();
             this.playAgainButton = new System.Windows.Forms.Button();
             this.resultLabel = new System.Windows.Forms.Label();
+            this.phraseLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // endProgramButton
@@ -63,12 +64,24 @@
             this.resultLabel.TabIndex = 2;
             this.resultLabel.Text = "Text Here";
             // 
+            // phraseLabel
+            // 
+            this.phraseLabel.AutoSize = true;
+            this.phraseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phraseLabel.ForeColor = System.Drawing.Color.Blue;
+            this.phraseLabel.Location = new System.Drawing.Point(13, 78);
+            this.phraseLabel.Name = "phraseLabel";
+            this.phraseLabel.Size = new System.Drawing.Size(67, 13);
+            this.phraseLabel.TabIndex = 3;
+            this.phraseLabel.Text = "result here";
+            // 
             // endScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WheelOfFortune.Properties.Resources.winner;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.phraseLabel);
             this.Controls.Add(this.resultLabel);
             this.Controls.Add(this.playAgainButton);
             this.Controls.Add(this.endProgramButton);
@@ -85,5 +98,6 @@
         private System.Windows.Forms.Button endProgramButton;
         private System.Windows.Forms.Button playAgainButton;
         private System.Windows.Forms.Label resultLabel;
+        private System.Windows.Forms.Label phraseLabel;
     }
 }

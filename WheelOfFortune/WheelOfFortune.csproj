@@ -58,6 +58,12 @@
     <Compile Include="endScreen.Designer.cs">
       <DependentUpon>endScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="GuessPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuessPage.Designer.cs">
+      <DependentUpon>GuessPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="keyboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="endScreen.resx">
       <DependentUpon>endScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuessPage.resx">
+      <DependentUpon>GuessPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="keyboard.resx">
       <DependentUpon>keyboard.cs</DependentUpon>
@@ -101,6 +110,9 @@
   <ItemGroup>
     <None Include="back.jpg" />
     <Content Include="dictionary.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="phrases.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="TestWords.txt">

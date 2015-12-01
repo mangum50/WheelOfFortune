@@ -369,8 +369,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button zButton;
         private System.Windows.Forms.Button yButton;
         private System.Windows.Forms.Button xButton;
@@ -397,5 +395,6 @@
         private System.Windows.Forms.Button cButton;
         private System.Windows.Forms.Button bButton;
         private System.Windows.Forms.Button aButton;
+        public System.Windows.Forms.Panel panel1;
     }
 }

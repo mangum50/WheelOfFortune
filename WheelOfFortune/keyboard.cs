@@ -13,15 +13,17 @@ namespace WheelOfFortune
     public partial class keyboard : Form
     {
         public char chosenLetter;
+        List<string> buttonsToRemove = new List<string>();
         public keyboard()
         {
-            InitializeComponent();
+           InitializeComponent();
         }
 
         private void letter_buttonClick(object sender, EventArgs e)
         {
             Button newSender = (Button)sender;
             chosenLetter = newSender.Name[0];
+            
             Close();
         }
     }
