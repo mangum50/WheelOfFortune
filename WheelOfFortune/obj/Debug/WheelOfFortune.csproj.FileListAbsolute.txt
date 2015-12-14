@@ -13,3 +13,18 @@ C:\Users\Tom\Documents\Visual Studio 2015\Projects\WheelOfFortune\WheelOfFortune
 C:\Users\Tom\Documents\Visual Studio 2015\Projects\WheelOfFortune\WheelOfFortune\obj\Debug\WheelOfFortune.Board.resources
 C:\Users\Tom\Documents\Visual Studio 2015\Projects\WheelOfFortune\WheelOfFortune\bin\Debug\phrases.txt
 C:\Users\Tom\Documents\Visual Studio 2015\Projects\WheelOfFortune\WheelOfFortune\obj\Debug\WheelOfFortune.GuessPage.resources
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\bin\Debug\WheelOfFortune.exe.config
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\obj\Debug\WheelOfFortune.exe
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\obj\Debug\WheelOfFortune.pdb
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\bin\Debug\dictionary.txt
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\bin\Debug\phrases.txt
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\bin\Debug\TestWords.txt
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\bin\Debug\WheelOfFortune.exe
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\bin\Debug\WheelOfFortune.pdb
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\obj\Debug\WheelOfFortune.csprojResolveAssemblyReference.cache
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\obj\Debug\WheelOfFortune.Board.resources
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\obj\Debug\WheelOfFortune.endScreen.resources
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\obj\Debug\WheelOfFortune.GuessPage.resources
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\obj\Debug\WheelOfFortune.keyboard.resources
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\obj\Debug\WheelOfFortune.Properties.Resources.resources
+C:\Users\Tom\Documents\GitHub\WheelOfFortune\WheelOfFortune\obj\Debug\WheelOfFortune.csproj.GenerateResource.Cache

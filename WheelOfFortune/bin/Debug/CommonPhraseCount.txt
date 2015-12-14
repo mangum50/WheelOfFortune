@@ -27,7 +27,7 @@
 0 off the beaten path
 0 wolves and sheep
 0 skipping stones across a pond
-0 miniature golf caddie
+2 miniature golf caddie
 0 oxford and cambridge
 0 student driver
 0 making a funny face
@@ -37,10 +37,10 @@
 0 in the air on land and sea
 0 nuclear submarine sandwich
 0 playing pool volleyball
-0 knockout punch
+1 knockout punch
 0 asking for permission
 0 hot bath
-0 a fleet of ships
+3 a fleet of ships
 0 great parents
 0 my way or the highway
 0 dedicated determined dependable
@@ -52,7 +52,7 @@
 0 friends in high places
 0 waiting for the right moment
 0 basic training wheels
-0 intimate atmosphere
+1 intimate atmosphere
 0 graduation ceremony
 0 we're so proud of you
 0 soaring hawk
@@ -64,7 +64,7 @@
 0 the silver surfer
 0 following footprints
 0 by appointment
-0 medal of honor
+1 medal of honor
 0 getting an early start
 0 light heavyweight champion
 0 mess hall of fame
@@ -88,8 +88,8 @@
 0 building sandcastles
 0 sold-out concert hall
 0 tom cruise as ethan hunt
-1 your day job
-0 traditional luau
+5 your day job
+1 traditional luau
 0 immediate supervisor
 0 special double-sized issue
 0 leftover food network
@@ -172,7 +172,7 @@
 0 backyard bird feeder
 0 sports announcer
 0 unbiased opinion
-0 hot-air balloon race
+1 hot-air balloon race
 0 taking the stage
 0 pleasing potato pancakes
 0 scarecrow from the wizard of oz
@@ -187,17 +187,17 @@
 0 a hayride through the country
 0 heavenly body language
 0 spider monkeys
-0 roasted vegetables
+1 roasted vegetables
 0 the beat of the drum
 0 knock on wood
 0 i played a hunch
 0 collecting pinecones
 0 cold cherry soda
-0 jumping into a pile of leaves
-0 the emperor's new clothes rack
+1 jumping into a pile of leaves
+4 the emperor's new clothes rack
 0 when in rome do as the romans do
 0 the dream team
-0 crisp clean autumn air
+1 crisp clean autumn air
 0 bite your tongue
 0 keep pushing forward
 0 all systems go
@@ -209,14 +209,14 @@
 0 it's friday i'm in love
 0 rainbow trout
 1 pageant gown
-0 an amazing weekend
-0 halifax nova scotia
+1 an amazing weekend
+1 halifax nova scotia
 0 may i have your attention please
 1 vin diesel engine
 0 fruit bursting with flavor
 0 a field of tulips
 0 stars in the night sky
-0 the brooklyn bridge
+1 the brooklyn bridge
 0 video blog
 0 trendy hot spot
 0 sweet potato pie
@@ -244,7 +244,7 @@
 0 buying and selling stocks
 0 oak bookcase
 0 filling up the tank
-0 hammer and nails
+1 hammer and nails
 0 liberal arts college
 0 jurassic & trailer park
 0 this place is amazing!
@@ -279,7 +279,7 @@
 0 raccoons and skunks
 0 daily journal
 0 heading out of town
-0 markers and crayons
+1 markers and crayons
 0 art museum curator
 0 kerry washington crossing the delaware
 0 snorkeling with turtles
@@ -322,13 +322,13 @@
 0 playing laser tag
 0 oversized watch
 0 living the american dream
-0 cactus flowers
+1 cactus flowers
 0 parking spot remover
 0 the metropolitan museum of art
 0 my own plunge pool
 0 restaurant hostess
 0 old-fashioned picnic basket
-0 faithful dog
+1 faithful dog
 0 kentucky bluegrass
 0 snack shack
 0 living in america by james brown
@@ -361,7 +361,7 @@
 0 high expectations
 0 outdoor chair cushions
 0 quick turnaround
-0 warm apple pie
+1 warm apple pie
 0 pet chihuahua
 0 the man the myth the legend
 0 practice makes perfect
@@ -386,7 +386,7 @@
 0 a puppy and a guppy
 0 hourly update
 0 using good grammar
-0 hollywood gossip
+1 hollywood gossip
 0 million dollar winner
 0 i don't remember getting any homework
 0 the spirit of aloha
@@ -395,8 +395,8 @@
 0 cast-iron skillet
 0 aviator jacket
 0 class dismissed
-0 a beautiful greeting card
-0 metric and nervous system
+1 a beautiful greeting card
+1 metric and nervous system
 0 u.s. women's soccer team wins world cup
 0 a festive beverage
 0 inside out

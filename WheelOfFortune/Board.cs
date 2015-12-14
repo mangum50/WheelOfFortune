@@ -37,7 +37,7 @@ namespace WheelOfFortune
             getPhrases();
             populateAlphabet();
             selectNewPhrase();
-            CreateBrain();          
+            CreateBrain();        
         }
         public void getWords()
         {
@@ -170,7 +170,7 @@ namespace WheelOfFortune
                     default:
                         Brain.Add(null);
                         break;
-            }
+                }
             }
         }
         public void dunceMachineSolver()//dumbest machine
@@ -192,17 +192,19 @@ namespace WheelOfFortune
             statusLabel.Text = "Dunce Machine Guessed: " + currLetter;
             statusLabel.Refresh();
             currLetter++;
-            System.Threading.Thread.Sleep(2000);
+            System.Threading.Thread.Sleep(1000);
             
 
             if (checkFinished())
             {
                 result = "Dunce Machine Wins!";
-                endScreen end = new endScreen(result, choice.ToString());
+                string labelString = string.Join("", choice.ToArray());
+                endScreen end = new endScreen(result, labelString);
                 storeWords();
                 storePhrases();
                 end.ShowDialog();
             }
+            
             
         }
         public void okayMachineSolver()//2nd iter
@@ -278,7 +280,8 @@ namespace WheelOfFortune
                 if (checkFinished())
                 {
                     result = "The guesser machine Wins!";
-                    endScreen end = new endScreen(result, choice.ToString());
+                    string labelString = string.Join("", choice.ToArray());
+                    endScreen end = new endScreen(result, labelString);
                     storeWords();
                     storePhrases();
                     end.ShowDialog();
@@ -407,13 +410,18 @@ namespace WheelOfFortune
             }
             else
             {
-                dunceMachineSolver();
-                okayMachineSolver();
-                guesserMachineSolver();
-                educatedMachineSolver();
-                statusLabel.Text = "Your Turn";
-                statusLabel.Refresh();
+                while (!checkFinished())
+                {
+                    educatedMachineSolver();
+                }
+                //dunceMachineSolver();
+                //okayMachineSolver();
+                //guesserMachineSolver();
+                //educatedMachineSolver();
+                //statusLabel.Text = "Your Turn";
+                //statusLabel.Refresh();
             }
+            
 
         }
 
@@ -445,6 +453,7 @@ namespace WheelOfFortune
                 }
                 
             }
+            
         }
 
         private void guessButton_Click(object sender, EventArgs e)
@@ -494,6 +503,10 @@ namespace WheelOfFortune
 
         public bool checkGuess(string phraseGuessed)
         {
+            if (phraseGuessed.Length != choice.Count)
+            {
+                return false;
+            }
             for (int i = 0; i < choice.Count; i++)
             {
                 if (phraseGuessed[i] != choice[i])
