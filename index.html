@@ -141,16 +141,23 @@ Machine guessing for win
 <h3>
 <a id="fourth-iteration" class="anchor" href="#fourth-iteration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fourth Iteration</h3>
 
-<p>The last iteration actually uses the most CPU time out of all the others. This is because it uses Shannon entropy to always guess the best letter possible for the phrase. Essentially how this works, is through a series of filters. </p>
+<p>The last iteration actually uses the most CPU time out of all the others. This is because it uses Shannon entropy to always guess the best letter possible for the phrase. </p>
 
-<p>The first filter will take the length of the phrase in its entirety, and filter the list of all phrases down to only phrases of that length. If only one phrase is found of that length, it will guess that phrase and win the game. However, this is not usually the case. After this first filter has been placed, the machine utilizes the remaining letters list. In this section, the machine will go through each of the phrases and find the most common letter in all the phrases combined. If the letter is present in a phrase, then a tally will be added to the yes counter. If the letter is not present, it will then add a tally to the no counter. Using these two counters, the machine can find the best change possible. What is looking for is the closest to 50/50 possible. Whichever letter ends up being closest to this will end up being the letter chosen. </p>
+<p>(Formula for Shannon entropy with x being yes counter and z being no counter)</p>
+
+<h3>
+<a id="xylog2xy--zylog2zy" class="anchor" href="#xylog2xy--zylog2zy" aria-hidden="true"><span class="octicon octicon-link"></span></a>[(x/y)log2(x/y) + (z/y)log2(z/y)]</h3>
+
+<p>Essentially how this works is through a series of filters. The first filter will take the length of the phrase in its entirety, and filter the list of all phrases down to only phrases of that length. If only one phrase is found of that length, it will guess that phrase and win the game. However, this is not usually the case. After this first filter has been placed, the machine utilizes the remaining letters list. In this section, the machine will go through each of the phrases and find the most common letter in all the phrases combined. If the letter is present in a phrase, then a tally will be added to the yes counter. If the letter is not present, it will then add a tally to the no counter. Using these two counters, the machine can find the best change possible. What is looking for is the closest to 50/50 possible. Whichever letter ends up being closest to this will end up being the letter chosen. </p>
 
 <p>After the letter guess is made, the machine will remove this letter from the list. The next time around, all phrases that are of the same length, and that contain the already guessed letters will be the only phrases taken into account moving forward. </p>
 
-<p>The reason I believe this machine doesn't always win is because there are a few instances where the letters in a phrase are pretty ambiguous, so the machine has to go through a few iterations to deter itself from using that phrase. But by the time that happens, iteration 3 has already won so this 4th iteration does not stand a chance.</p>
+<p>(Visual guide to Shannon entropy for this case)
+<img src="http://imgur.com/ELDSW3q"></p>
 
-<p>(I have included a helpful graphic of Shannon entropy below to make things a bit more clear about how it all works)
-<img src="http://i.imgur.com/ZzgAPgc.png"></p>
+<p>The reason this machine doesn't always win is because there are a few instances where the letters in a phrase are pretty ambiguous, so the machine has to go through a few iterations to deter itself from using that phrase. But by the time that happens, iteration 3 has already won so this 4th iteration does not stand a chance.</p>
+
+<p><img src="http://i.imgur.com/ZzgAPgc.png"></p>
 
 <p>Looking over these graphs, the last iteration seems to average out to the rest of the machines, but stays more constantly high than the others. This is because it has to keep a lot more data at once than the others. </p>
 
